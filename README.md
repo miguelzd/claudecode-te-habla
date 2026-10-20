@@ -1,5 +1,7 @@
 # Claude Code te habla
 
+![claudecode-te-habla](assets/banner.svg)
+
 Plugin de [Claude Code](https://claude.com/claude-code) que **lee en voz alta cada respuesta** apenas
 termina, en español, con la voz Paulina de macOS. Para escuchar a Claude mientras hacés otra cosa.
 
