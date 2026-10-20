@@ -1,0 +1,15 @@
+{
+  "description": "Al terminar cada respuesta, la lee en voz alta con la voz de macOS",
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/scripts/leer-en-voz.sh\""
+          }
+        ]
+      }
+    ]
+  }
+}

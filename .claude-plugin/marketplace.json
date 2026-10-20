@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claudecode-te-habla",
+  "description": "Plugins de Miguel Zdanovich para Claude Code",
+  "owner": {
+    "name": "Miguel Zdanovich"
+  },
+  "plugins": [
+    {
+      "name": "claudecode-te-habla",
+      "description": "Lee en voz alta cada respuesta de Claude Code, en español, con la voz Paulina de macOS",
+      "source": "./",
+      "category": "productivity",
+      "homepage": "https://github.com/miguelzd/claudecode-te-habla"
+    }
+  ]
+}
