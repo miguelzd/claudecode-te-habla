@@ -28,7 +28,8 @@ Usa sólo lo que ya trae la Mac: nada de servicios externos, claves ni voces par
 ## Requisitos
 
 - **macOS.** No anda en Windows ni en Linux.
-- **Claude Code**, en la terminal, en VS Code o en otro lugar donde corra en tu Mac.
+- **Claude Code**, en la terminal, en VS Code o en otro lugar donde corra en tu Mac. No funciona en
+  el chat de la aplicación de escritorio de Claude.
 - **La voz Paulina.** Si no la tenés: Configuración del Sistema → Accesibilidad → Contenido leído →
   Voz del sistema → Administrar voces → Español (México) → Paulina.
 - **`jq`.** Viene con macOS 15 Sequoia o posterior. En versiones anteriores: `brew install jq`.
