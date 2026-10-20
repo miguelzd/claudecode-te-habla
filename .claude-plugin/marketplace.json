@@ -3,7 +3,8 @@
   "name": "claudecode-te-habla",
   "description": "Plugins de Miguel Zdanovich para Claude Code",
   "owner": {
-    "name": "Miguel Zdanovich"
+    "name": "Miguel Zdanovich",
+    "url": "https://github.com/miguelzd"
   },
   "plugins": [
     {
