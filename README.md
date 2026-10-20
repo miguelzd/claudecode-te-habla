@@ -12,6 +12,17 @@ Usa sólo lo que ya trae la Mac: nada de servicios externos, claves ni voces par
 3. Si todavía estaba leyendo la respuesta anterior, la corta, para que no se encimen.
 4. La lee con `say`, el lector de voz de macOS.
 
+## Por qué este
+
+- **Lee la respuesta completa**, tal como la escribió Claude: no un resumen hecho por otro modelo.
+- **No gasta tokens.** No llama a ningún modelo ni a ninguna API: cada lectura es gratis.
+- **Anda sin internet.** La voz es de la Mac, así que el audio se arma ahí mismo.
+- **Nada que instalar ni configurar.** Usa `say`, que ya viene con macOS; se instala y anda.
+- **Pensado para el español.** Paulina por defecto, y una limpieza del texto para que no se lean
+  símbolos ni se corte la lectura en medio de una respuesta.
+- **Simple de revisar.** Es un solo script de bash de unas 50 líneas: se puede leer entero antes de
+  instalarlo.
+
 ## Requisitos
 
 - **macOS.** No anda en Windows ni en Linux.
