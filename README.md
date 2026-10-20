@@ -5,6 +5,9 @@
 Plugin de [Claude Code](https://claude.com/claude-code) que **lee en voz alta cada respuesta** apenas
 termina, en español, con la voz Paulina de macOS. Para escuchar a Claude mientras hacés otra cosa.
 
+**Ideal para los que trabajamos en la terminal**: mientras Claude trabaja, vos hacés otra cosa, y
+te enterás de lo que respondió sin volver a mirar la pantalla.
+
 Usa sólo lo que ya trae la Mac: nada de servicios externos, claves ni voces para descargar aparte.
 
 ## Qué hace
