@@ -5,11 +5,10 @@
 Plugin de [Claude Code](https://claude.com/claude-code) que **lee en voz alta cada respuesta** apenas
 termina, en español, con la voz Paulina de macOS. Para escuchar a Claude mientras hacés otra cosa.
 
-> ## 💡 Ideal para los que trabajamos en la terminal
->
-> Mientras Claude trabaja, vos hacés otra cosa, y te enterás de lo que respondió sin volver a mirar
-> la pantalla.
+## 💡 Ideal para los que trabajamos en la terminal o en VS Code
 
+Mientras Claude trabaja, vos hacés otra cosa, y te enterás de lo que respondió sin volver a mirar la
+pantalla.<br>
 Usa sólo lo que ya trae la Mac: nada de servicios externos, claves ni voces para descargar aparte.
 
 ## Qué hace
@@ -19,7 +18,7 @@ Usa sólo lo que ya trae la Mac: nada de servicios externos, claves ni voces par
 3. Si todavía estaba leyendo la respuesta anterior, la corta, para que no se encimen.
 4. La lee con `say`, el lector de voz de macOS.
 
-## Por qué este
+## Ventajas
 
 - **Lee la respuesta completa**, tal como la escribió Claude: no un resumen hecho por otro modelo.
 - **No gasta tokens.** No llama a ningún modelo ni a ninguna API: cada lectura es gratis.
@@ -70,7 +69,7 @@ En `~/.claude/settings.json`, dentro del bloque `"env"` (si no existe, se crea):
 {
   "env": {
     "CLAUDE_TE_HABLA_VOZ": "Paulina (Enhanced)",
-    "CLAUDE_TE_HABLA_VELOCIDAD": "200"
+    "CLAUDE_TE_HABLA_VELOCIDAD": "185"
   }
 }
 ```
@@ -94,4 +93,4 @@ En `~/.claude/settings.json`, dentro del bloque `"env"` (si no existe, se crea):
 
 ## Licencia
 
-[MIT](LICENSE).
+[MIT](LICENSE) © 2026 Miguel Angel Zdanovich

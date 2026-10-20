@@ -1,9 +1,9 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "claudecode-te-habla",
-  "description": "Plugins de Miguel Zdanovich para Claude Code",
+  "description": "Plugins de Miguel Angel Zdanovich para Claude Code",
   "owner": {
-    "name": "Miguel Zdanovich",
+    "name": "Miguel Angel Zdanovich",
     "url": "https://github.com/miguelzd"
   },
   "plugins": [
