@@ -1,6 +1,6 @@
 {
   "name": "claudecode-te-habla",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lee en voz alta cada respuesta de Claude Code, en español, con la voz Paulina de macOS",
   "author": {
     "name": "Miguel Angel Zdanovich",

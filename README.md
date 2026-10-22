@@ -35,13 +35,13 @@ Usa sólo lo que ya trae la Mac: nada de servicios externos, claves ni voces par
 - **Claude Code**, en la terminal, en VS Code o en otro lugar donde corra en tu Mac. No funciona en
   el chat de la aplicación de escritorio de Claude.
 - **La voz Paulina.** Si no la tenés: Configuración del Sistema → Accesibilidad → Contenido leído →
-  Voz del sistema → Administrar voces → Español (México) → Paulina.
+  Voz del sistema → Administrar voces → Español (México) → Paulina (Mejorada).
 - **`jq`.** Viene con macOS 15 Sequoia o posterior. En versiones anteriores: `brew install jq`.
 
 Para ver si tenés la voz:
 
 ```bash
-say -v Paulina "Hola, te hablo yo"
+say -v "Paulina (Enhanced)" "Hola, te hablo yo"
 ```
 
 ## Instalar
@@ -74,7 +74,7 @@ En `~/.claude/settings.json`, dentro del bloque `"env"` (si no existe, se crea):
 }
 ```
 
-- **Voz:** cualquiera de las que lista `say -v '?'`. Por defecto, `Paulina`.
+- **Voz:** cualquiera de las que lista `say -v '?'`. Por defecto, `Paulina (Enhanced)`.
 - **Velocidad:** en palabras por minuto. Por defecto, `185`.
 
 ## Desinstalar

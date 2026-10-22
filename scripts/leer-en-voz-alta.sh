@@ -6,12 +6,12 @@
 #
 # Voz y velocidad se cambian sin tocar este archivo, con dos variables en el
 # bloque "env" de ~/.claude/settings.json (ver el README):
-#   CLAUDE_TE_HABLA_VOZ        (por defecto: Paulina)
+#   CLAUDE_TE_HABLA_VOZ        (por defecto: Paulina (Enhanced))
 #   CLAUDE_TE_HABLA_VELOCIDAD  (palabras por minuto; por defecto: 185)
 
 set -e
 
-voz="${CLAUDE_TE_HABLA_VOZ:-Paulina}"
+voz="${CLAUDE_TE_HABLA_VOZ:-Paulina (Enhanced)}"
 velocidad="${CLAUDE_TE_HABLA_VELOCIDAD:-185}"
 
 text=$(jq -r '.last_assistant_message // empty' 2>/dev/null)
